@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="bootstrap.min">
+	</head>
+	<body>
+		<div class="container" style="font-size: 18px;">
+			<div class="input-group input-group-lg">
+				<span class="input-group-text" id="inputGroup-sizing-lg">Имя</span><br>
+				<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+			</div><br>
+			<div class="input-group input-group-lg">
+				<span class="input-group-text" id="inputGroup-sizing-lg">Фамилия</span><br>
+				<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+			</div><br>
+			<div class="input-group mb-3">
+				<span class="input-group-text">Ном. тел.</span><br>
+				<span class="input-group-text">+996</span>
+				<input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+			</div><br>
+			<select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+				<option selected>Выбор страны...</option>
+				<option value="1">Кыргызстан</option>
+				<option value="2">Россия</option>
+				<option value="3">Украина</option>
+			</select>
+			<select class="form-select" aria-label="Default select example">
+				<option selected>Выбор города...</option>
+				<option value="1">Бишкек</option>
+				<option value="2">Москва</option>
+				<option value="3">Киев</option>
+			</select><br><br>
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label">Email</label><br>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			</div><br>
+			<div class="input-group mb-3">
+				<label class="input-group-text" for="inputGroupSelect01">Выбор языка программирование</label>
+				<select class="form-select" id="inputGroupSelect01">
+					<option selected>Выберите...</option>
+					<option value="1">JavaScript</option>
+					<option value="2">Java</option>
+					<option value="3">C#</option>
+					<option value="4">PHP</option>
+					<option value="5">C++</option>
+					<option value="3">Python</option>
+				</select>
+			</div><br>
+			<div class="form-check">
+				<span>Пол:</span><br>
+				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+				<label class="form-check-label" for="flexRadioDefault1">
+					Муж
+				</label>
+				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+				<label class="form-check-label" for="flexRadioDefault2">
+					Жен
+				</label>
+			</div><br>
+			<div class="mb-3">
+				<label for="exampleFormControlTextarea1" class="form-label">О себе</label><br>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div><br>
+			<div class="col-auto">
+				<button type="submit" class="btn btn-primary">Отправить</button>
+			</div>
+		</div>
+	</body>
+</html>
